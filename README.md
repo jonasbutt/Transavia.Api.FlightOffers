@@ -1,1 +1,1 @@
-# Transavia Flight Offers API Client Library for .NET
+# Transavia Flight Offers API Client for .NET
