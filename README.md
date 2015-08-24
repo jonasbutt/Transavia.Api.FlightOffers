@@ -1,6 +1,6 @@
 # Transavia Flight Offers API Client for .NET  
-Get NuGet package: https://www.nuget.org/packages/Transavia.Api.FlightOffers/  
-More info: https://developer.transavia.com
+Get NuGet package: https://www.nuget.org/packages/Transavia.Api.FlightOffers  
+More info: https://developer.transavia.com  
 Example usage:  
 ```c#
 var request = new FlightOfferRequest 
