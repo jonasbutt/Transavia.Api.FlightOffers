@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Transavia.Api.FlightOffers</id>
+    <version>1.0.0</version>
+    <title>Transavia Flight Offers API Client for .NET</title>
+    <authors>Jonas</authors>
+    <owners></owners>
+    <description>
+      Transavia Flight Offers API Client for .NET
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      Transavia Flight Offers API Client for .NET
+    </summary>
+    <language>en-US</language>
+    <projectUrl>https://github.com/jonasbutt/Transavia.Api.FlightOffers</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <copyright></copyright>
+    <dependencies>
+      <group targetFramework="portable-net45+win+wpa81+wp80+MonoAndroid10+xamarinios10+MonoTouch10">
+        <dependency id="Microsoft.Bcl" version="1.1.10" />
+        <dependency id="Microsoft.Bcl.Build" version="1.0.21" />
+        <dependency id="Microsoft.Net.Http" version="2.2.29" />
+        <dependency id="Newtonsoft.Json" version="7.0.1" />
+      </group>
+    </dependencies>
+    <references></references>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="lib\" target="lib" />
+    <file src="tools\" target="tools" />
+    <file src="content\" target="content" />
+  </files>
+</package>
