@@ -38,9 +38,11 @@ namespace Transavia.Api.FlightOffers.Client.Model
 
         public string Price { get; set; }
 
-        public string GroupPricing { get; set; }
+        public bool? GroupPricing { get; set; }
 
         public string ProductClass { get; set; }
+
+        public bool? DirectFlight { get; set; }
 
         public int? Limit { get; set; }
 
