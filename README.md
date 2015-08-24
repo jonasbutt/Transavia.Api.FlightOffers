@@ -9,7 +9,6 @@ var request = new FlightOfferRequest
     OriginDepartureDate = "201508",  
     Limit = 5   
   };
-var flightOffersClient = FlightOffersClientFactory.CreateFlightOffersClient();
-var flightOfferResponse =  
-  await flightOffersClient.GetFlightOffersAsync("YOUR_API_KEY", request);
+var client = FlightOffersClientFactory.CreateFlightOffersClient();
+var flightOfferResponse = await client.GetFlightOffersAsync("YOUR_API_KEY", request);
 ```
