@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Transavia.Api.FlightOffers</id>
-    <version>1.0.1</version>
+    <version>1.0.3</version>
     <title>Transavia Flight Offers API Client for .NET</title>
     <authors>Jonas</authors>
     <owners></owners>

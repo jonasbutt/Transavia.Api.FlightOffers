@@ -20,7 +20,7 @@ namespace Transavia.Api.FlightOffers.Client
         public async Task<T> GetAsync<T>(IApiConnection apiConnection, string resource)
         {
             var requestUrl = string.Format("{0}/{1}/{2}",
-                apiConnection.Url,
+                apiConnection.Url.ToString().Trim('/'),
                 apiConnection.Version.ToString().ToLowerInvariant(),
                 resource);
             var httpClient = this.httpClientFactory.CreateHttpClient(apiConnection.Key);
@@ -32,7 +32,7 @@ namespace Transavia.Api.FlightOffers.Client
         {
             var queryString = this.serializationHelper.SerializeToQueryString(data);
             var requestUrl = string.Format("{0}/{1}/{2}?{3}",
-                apiConnection.Url,
+                apiConnection.Url.ToString().Trim('/'),
                 apiConnection.Version.ToString().ToLowerInvariant(),
                 resource,
                 queryString);
@@ -44,7 +44,7 @@ namespace Transavia.Api.FlightOffers.Client
         public async Task<T> PostAsync<T>(IApiConnection apiConnection, string resource, object data)
         {
             var requestUrl = string.Format("{0}/{1}/{2}",
-                apiConnection.Url,
+                apiConnection.Url.ToString().Trim('/'),
                 apiConnection.Version.ToString().ToLowerInvariant(),
                 resource);
             var httpClient = this.httpClientFactory.CreateHttpClient(apiConnection.Key);
