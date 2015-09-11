@@ -2,6 +2,9 @@
 {
     public class Airport
     {
+        /// <summary>
+        /// IATA location code of airport.
+        /// </summary>
         public string LocationCode { get; set; }
     }
 }
