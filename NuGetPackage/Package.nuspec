@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Transavia.Api.FlightOffers</id>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <title>Transavia Flight Offers API Client for .NET</title>
     <authors>Jonas</authors>
     <owners></owners>
@@ -11,6 +11,7 @@
       Disclaimer: this project is not created by Transavia!
     </description>
     <releaseNotes>
+      Added Include and Exclude property to request type. Added request and response documentation.
     </releaseNotes>
     <summary>
       Transavia Flight Offers API Client for .NET
